@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>Atividade Individual 3</h1>
+    </div>
+    <div>
+        <form method="post">
+            <section>
+                <label> Nome</label>
+                <input id="nomeIn" name="nome"  type="text" title="Digite seu nome" placeholder="Digite seu nome" required>
+                <span> Nome inválido</span>
+            </section>
+            <section>
+                <label> Email</label>
+                <input id="emailIn" type="email" name="email" title="Digite seu email" placeholder="Digite seu email" required>
+                <span>Email inválido</span>
+            </section>
+            <section>
+                <label>Deixe seu comentário para melhor experiência (opcional)</label>
+                <textarea id="comentarioT" name="comentario" 
+                rows="10" 
+                cols="40"
+                title="Digite seu comentário" 
+                placeholder="Digite seu comentário" 
+                required>
+                </textarea>
+                <span>Mínimo 10 caracteres</span>
+            </section>
+            <button id="btn-enviar" type="submit" disabled> Enviar</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

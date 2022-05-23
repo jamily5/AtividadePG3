@@ -1,0 +1,68 @@
+textarea {
+    resize: none;
+    padding: 5%;
+    border-radius: 30px;
+    background-color: rosybrown;
+}
+
+label {
+    display: flex;
+    padding: 10% 0% 6% 0%;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+body {
+    
+    background-image: url(/img/jjk.jpg);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+   padding: 5%;
+   border-radius: 30px;
+   background-color: rosybrown;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: rosybrown;
+    color: white;
+    border-radius: 30px;
+    margin-top: 1%;
+    padding: 1% 2%;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+ }
+
+ span {
+     color: rgb(138, 16, 16);
+     display: none;
+ }
+
+ /*rgb(129, 16, 16)*/
